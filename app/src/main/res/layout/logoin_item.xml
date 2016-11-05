@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:padding="6dp"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/logoin_weixin"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:layout_width="48dp"
+                android:layout_height="68dp"
+                android:src="@drawable/share_wechat"/>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:text="微信"
+                android:textSize="16sp"
+                android:layout_marginLeft="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/login_weibo"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/share_weibo"
+                android:layout_width="48dp"
+                android:layout_height="68dp"
+                />
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:textSize="16sp"
+                android:text="微博"/>
+        </LinearLayout>
+
+      <LinearLayout
+          android:id="@+id/logoin_qq"
+          android:orientation="vertical"
+          android:layout_marginLeft="20dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+          <ImageView
+              android:layout_gravity="center_vertical"
+              android:src="@drawable/share_qq"
+              android:layout_width="48dp"
+              android:layout_height="68dp"
+              />
+          <TextView
+              android:text="QQ"
+              android:layout_gravity="center_vertical"
+              android:textSize="16sp"
+              android:layout_marginLeft="10dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" />
+      </LinearLayout>
+        <LinearLayout
+            android:id="@+id/logoin_new"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_jike_login"
+                android:layout_width="48dp"
+                android:layout_height="68dp"
+                />
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:text="注册/登录"
+                android:textSize="13sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+</LinearLayout>

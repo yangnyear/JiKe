@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.swpuiot.jike.RegistActivity">
+    <FrameLayout
+        android:id="@+id/fly_head"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:padding="12dp"
+            android:id="@+id/image_backgrond2"
+            android:src="@drawable/image_background"
+            android:scaleType="center"
+            android:layout_width="match_parent"
+            android:layout_height="180dp" />
+        <ImageView
+            android:padding="12dp"
+            android:id="@+id/image_jike_logo2"
+            android:src="@drawable/image_jike"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:layout_width="64dp"
+            android:layout_height="64dp" />
+
+        <TextView
+            android:id="@+id/tetx_jike2"
+            android:text="即刻"
+            android:textColor="#fff"
+            android:textSize="30sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="130dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+    <LinearLayout
+        android:layout_below="@+id/fly_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_marginTop="5dp"
+            android:padding="2dp"
+            android:hint="用戶名"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+        <EditText
+            android:id="@+id/et_password"
+            android:hint="密碼"
+            android:layout_marginTop="5dp"
+            android:padding="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+        <EditText
+            android:id="@+id/et_repassword"
+            android:hint="確定密碼"
+            android:layout_marginTop="5dp"
+            android:padding="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+        <EditText
+            android:id="@+id/et_age"
+            android:hint="年齡"
+            android:layout_marginTop="5dp"
+            android:padding="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+        <EditText
+            android:id="@+id/et_motto"
+            android:hint="个性签名"
+            android:layout_marginTop="5dp"
+            android:padding="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+        <Button
+            android:id="@+id/bt_regist"
+            android:background="@drawable/bt_shape"
+            android:padding="12dp"
+            android:text="注册"
+            android:layout_marginTop="14dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="280dp"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
